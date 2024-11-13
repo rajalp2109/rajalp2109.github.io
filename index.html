@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom Styles */
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      nav {
+        background-color: #343a40;
+      }
+
+      .navbar-brand {
+        font-size: 1.8rem;
+        color: #fff;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #5bc0de !important;
+        transition: color 0.3s;
+      }
+
+      nav a {
+        color: #fff !important;
+      }
+
+      .hero-section {
+        background-color: #5bc0de;
+        color: white;
+        text-align: center;
+        padding: 60px 0;
+      }
+
+      .hero-section img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      .hero-section h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 40px 0;
+      }
+
+      footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      @media (max-width: 768px) {
+        .hero-section h1 {
+          font-size: 2rem;
+        }
+      }
+      .btn-link {
+        text-decoration: none; /* Removes the default underline */
+        color: white; /* Text color */
+        position: relative;
+      }
+
+      .btn-link::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+
+      .btn-link:hover::after {
+        transform: scaleX(1); /* Expands the line on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rajal Patel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <img src="rajal_patel.jpg" alt="Rajal Photo" />
+      <h1>Rajal Patel</h1>
+      <p>
+        Software Developer | No code-Low code Developer | Citizen
+        Developer-Power Apps
+      </p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        As a dynamic developer with three years of experience, my expertise lies
+        at the intersection of traditional and innovative software development.
+        Beginning with a solid grounding in .NET, I've developed a deep
+        understanding of software principles, essential for the diverse range of
+        projects I've tackled. My journey expanded into the realms of no
+        code/low code solutions and Citizen Development, particularly with Power
+        Apps, where I've excelled in transforming complex business needs into
+        streamlined, automated processes. This experience underscores my ability
+        to adapt to evolving technological landscapes, ensuring efficiency and
+        user-centric outcomes.In addition to my proficiency with Power Apps and
+        WordPress, I have cultivated strong skills in React and front-end
+        development frameworks. This expertise enables me to build interactive,
+        responsive, and visually appealing web applications. My ability to blend
+        aesthetic design with functional programming has allowed me to create
+        intuitive and engaging user experiences.I am passionate about leveraging
+        the latest technologies in front-end development, and my experience with
+        React is a testament to my commitment to staying ahead in the rapidly
+        evolving field of web development. My diverse skill set in .NET, no
+        code/low code platforms, WordPress, and front-end technologies like
+        React positions me uniquely to contribute to innovative and impactful
+        software solutions.
+      </p>
+      <a
+        href="Rajal_Patel_Resume.pdf"
+        download
+        class="btn-link mt-3"
+        style="background-color: #5bc0de; color: white; padding: 10px"
+      >
+        <i class="fas fa-download"></i> Resume
+      </a>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="bg-light">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <strong>Programming Languages:</strong> HTML, CSS, JavaScript, PHP,
+            C#.NET, Visual Basic.NET, Java SE™
+          </li>
+          <li>
+            <strong>Frameworks & Libraries:</strong> Bootstrap, jQuery, AJAX
+          </li>
+          <li>
+            <strong>Database Management:</strong> MSSQL, MySQL, Oracle, MongoDB
+          </li>
+          <li>
+            <strong>Development Tools: </strong>Microsoft Visual Studio, Visual
+            Code, XAMPP, NetBeans
+          </li>
+          <li><strong>QA & Testing: </strong>Selenium, Mocha, Chai</li>
+          <li><strong>Data Visualization:</strong> Power BI</li>
+          <li><strong>Low-Code Platforms:</strong> Microsoft Power Apps</li>
+          <li>
+            <strong>Project Management Tools:</strong> Microsoft Project, Jira,
+            GitHub
+          </li>
+          <li>
+            <strong>Software Proficiency:</strong> Microsoft Office Suite
+            (Excel, Word, PowerPoint, Access)
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Project 1</h4>
+          <p>
+            A responsive web design project on South Korea, utilizing HTML,
+            Bootstrap, and media queries to ensure cross-device compatibility.
+            Role: Front-end Developer.
+          </p>
+          <a
+            href="https://github.com/NBCC-WEB-PROJ/South_Korea"
+            target="_blank"
+            class="btn-link"
+            style="background-color: #5bc0de; color: white; padding: 10px"
+          >
+            View on GitHub
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h4>Project 2</h4>
+          <p>
+            Developed a C# .NET bookstore CRUD application implementing OOP
+            principles as a Full-stack Developer. Built both front-end and
+            back-end functionalities to manage bookstore inventory efficiently..
+          </p>
+          <a
+            href="https://github.com/RodNerys/RPRN_OOP"
+            target="_blank"
+            class="btn-link"
+            style="background-color: #5bc0de; color: white; padding: 10px"
+          >
+            View on GitHub
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h4>Project 3</h4>
+          <p>
+            Developed a PHP CRUD application using OOP, JsonSerializable, and a
+            DAO for database operations. Created a JavaScript GUI with AJAX for
+            data management. Role: Full-stack Developer, handling both front-end
+            and back-end tasks.
+          </p>
+          <a
+            href="https://github.com/rajalp2109/php-crud-ajax"
+            target="_blank"
+            class="btn-link"
+            style="background-color: #5bc0de; color: white; padding: 10px"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="bg-light">
+      <div class="container">
+        <h2>Experience</h2>
+        <div>
+          <h4>Web Developer — Neopric Inc., Saint John</h4>
+          <p><em>April 2020 - Present</em></p>
+          <ul>
+            <li>
+              Converted design mockups (PSD, wireframe) into fully functional
+              responsive websites using HTML, CSS, and Bootstrap.
+            </li>
+            <li>
+              Installed, configured, and customized WordPress plugins for
+              enhanced SEO, e-commerce, and security functionalities.
+            </li>
+            <li>
+              Provided ongoing website maintenance, including core updates,
+              plugin updates, and security monitoring.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>QA Tester — Saeculum Solutions, India</h4>
+          <p><em>April 2019 - March 2020</em></p>
+          <ul>
+            <li>
+              Performed formal and informal testing on multiple projects to
+              enhance user experience and functionality.
+            </li>
+            <li>
+              Prepared test plans, test cases, and created test data for systems
+              across web and mobile platforms.
+            </li>
+            <li>
+              Improved cross-platform compatibility, especially for mobile
+              devices, by conducting end-user testing.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Information Technology: Programmer Analyst</strong> - New
+          Brunswick Community College, Graduating 2025
+        </li>
+        <li>
+          <strong>Bachelor of Engineering</strong> - M.S. University, India,
+          July 2008 - June 2012
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: rajalpatel2109@gmail.com</p>
+        <p>Phone: (506) 232-9288</p>
+        <a
+          href="https://linkedin.com/in/rajal-patel-2b65ba105"
+          target="_blank"
+          class="btn btn-link"
+          style="background-color: #5bc0de; color: white"
+        >
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a
+          href="https://github.com/rajalp2109"
+          target="_blank"
+          class="btn btn-link"
+          style="background-color: #5bc0de; color: white"
+        >
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Developed by Rajal Patel. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
